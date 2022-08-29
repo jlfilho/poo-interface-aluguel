@@ -11,10 +11,10 @@ public class ServicoAluguel {
 	private Double precoPorHora;
 	
 	
-	private ImpostoServicoBrasil impostoServico;
+	private ImpostoServico impostoServico;
 
 
-	public ServicoAluguel(Double precoPorDia, Double precoPorHora, ImpostoServicoBrasil impostoServico) {
+	public ServicoAluguel(Double precoPorDia, Double precoPorHora, ImpostoServico impostoServico) {
 		this.precoPorDia = precoPorDia;
 		this.precoPorHora = precoPorHora;
 		this.impostoServico = impostoServico;
